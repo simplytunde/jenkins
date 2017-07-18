@@ -1,5 +1,5 @@
 job('first-jenkins-job') {
     steps {
-        shell('echo "Hello World! Love"')
+        shell('echo "Hello World!"')
     }
 }
