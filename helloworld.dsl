@@ -8,3 +8,8 @@ job('second-jenkins-job') {
         shell('echo "Hello World! Second"')
     }
 }
+job('third-jenkins-job') {
+    steps {
+        shell('echo "Hello World! Third"')
+    }
+}
